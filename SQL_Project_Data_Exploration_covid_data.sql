@@ -163,7 +163,7 @@ JOIN [PortfolioProject]..CovidVaccinations vac
 WHERE dea.continent is not NULL AND vac.location NOT IN ('European Union', 'High income', 'Upper middle income', 'Lower middle income', 'Low income')
 
 SELECT *
-FROM PercentPopulationVaccinated
+FROM [PortfolioProject]..PercentPopulationVaccinated
 
 
 
